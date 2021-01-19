@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="MyFirstApp">
+    <head>
+            <meta charset="utf-8">
+            <script src="angular.min.js"></script>
+            <script src="app.js"></script>
+            <title>My First Angular Web App</title>
+    </head>
+    <body>
+            <h1>My First angular JS App</h1>
+            
+            <div ng-controller="MyFirstController">
+                   {{name}}
+                   <br>
+                   {{sayHello()}}
+                   <input type="text" ng-model="name">
+                   <br>
+                   Inside My Textbox the text are :- {{name}}
+            </div>
+            
+    </body>
+</html>
